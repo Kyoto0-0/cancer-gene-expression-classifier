@@ -1,5 +1,7 @@
 # Cancer Type Classification from Gene Expression Data
 
+This dataset is a well-separated benchmark: each cancer type originates from a distinct tissue, so transcriptional profiles are naturally distinct. 99.4% accuracy is expected and does not generalize to harder clinical problems (e.g., cancer subtype classification, early-stage detection). The interesting result is the one misclassification — a LUAD sample predicted as BRCA — which reflects real molecular overlap between the two cancers.
+
 ## Biological Question
 Can a neural network distinguish between five cancer types (BRCA, KIRC, COAD, LUAD, PRAD) based solely on gene expression patterns?
 
